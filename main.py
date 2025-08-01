@@ -10,8 +10,11 @@ def print_hi(name):
 
 
 # Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+from alkobot import bot
+
+if __name__ == "__main__":
+    bot.infinity_polling()
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 print("Hello, PyCharm!")
